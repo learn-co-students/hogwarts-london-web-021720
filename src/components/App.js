@@ -3,6 +3,7 @@ import "../App.css";
 import Nav from "./Nav";
 import hogs from "../porkers_data";
 import HelloWorld from "./HelloWorld";
+import Hog from "./Hog";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <HelloWorld />
+        <Hog hogs={hogs} />
       </div>
     );
   }
